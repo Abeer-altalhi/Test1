@@ -22,7 +22,7 @@ struct ContentView: View {
             //Color(.gray).ignoresSafeArea()
 
         VStack{
-        Text("Coffee ☕️")
+        Text("Coffee ")
 .font(.custom("AmericanTypewriter", fixedSize: 30))
             
             Toggle("Include Milk 🥛", isOn: $On)
